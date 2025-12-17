@@ -21,5 +21,5 @@ public class StudentController {
   public List<Student> fetchRecord(){
     return stser.fetchRecord();
   }
-  
+
 }
