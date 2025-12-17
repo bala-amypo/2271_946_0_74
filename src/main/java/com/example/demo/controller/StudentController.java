@@ -19,11 +19,7 @@ public class StudentController {
     }
 
     @GetMapping("/fetchrecord")
-    public List<Student> fetchData(){
-        return data.fetchData();
-    }
-    @GetMapping("/fetchDataById/{id}")
-    public Optional fetchDataById(@PathVariable int id){
-        return data.fetchDataById(id);
+    public List<Student> fetchRecord(){
+        return data.fetchRecord();
     }
 }
