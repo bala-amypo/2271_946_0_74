@@ -31,13 +31,16 @@ public class Student{
     public void setCgpa(float cgpa){
         this.cgpa=cgpa;
     }
-
-    public Student(Long id, String stuname, String stemail, float cgpa) {
+    public Student(Long id, String stuname, String stuemail, float cgpa) {
         this.id = id;
         this.stuname = stuname;
         this.stuemail = stuemail;
         this.cgpa = cgpa;
     }
+
     public Student(){
-    }
+
+    }
+
+
 }
