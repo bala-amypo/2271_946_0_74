@@ -17,7 +17,6 @@ public class StudentController {
     public Student createData(@RequestBody Student stu){
         return data.createData(stu);
     }
-
     @GetMapping("/fetchrecord")
     public List<Student> fetchRecord(){
         return data.fetchRecord();
